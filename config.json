@@ -1,0 +1,88 @@
+[
+  {
+    "remarks": "PL VLESS 🇵🇱",
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "sub.maksimalni.top",
+              "port": 443,
+              "users": [
+                {
+                  "id": "cf21e491-7194-4b1c-87e3-e5331be571d4",
+                  "flow": "xtls-rprx-vision",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "web.max.ru",
+            "publicKey": "62HYMGy5_7slmzBUTwiDYh_84azYbhlGjFMVYagpy3Y",
+            "shortId": "388d74a4a1dd80d1",
+            "fingerprint": "chrome",
+            "spiderX": "/3UWz2BrutKxfdau"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "remarks": "HU VLESS 🇭🇺",
+    "outbounds": [
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "gava.govt.hu",
+              "port": 443,
+              "users": [
+                {
+                  "id": "86134c45-c257-4b5b-a43a-e7639d34d0d1",
+                  "flow": "xtls-rprx-vision",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "web.max.ru",
+            "publicKey": "fgoC-wMwDZColpRyCjIwYPlH3xJk6jSnNNxn9hZorhE",
+            "shortId": "9c8d80e842dc90a2",
+            "fingerprint": "chrome",
+            "spiderX": "/bY9I8zYSxSIRbY8"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "remarks": "HU Shadowsocks 🇭🇺",
+    "outbounds": [
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "gava.govt.hu",
+              "port": 35657,
+              "method": "2022-blake3-aes-128-gcm",
+              "password": "xBZXg9v4o5AjC4bw8jBejg==:5si6e18EOV5YwTcffeGVrQ=="
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
